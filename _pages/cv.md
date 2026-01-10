@@ -11,47 +11,51 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* Ph.D in Urban Governance and Design, The Hong Kong University of Science and Technology (Guangzhou), 2028 (ongoing)
+* M.S. in Social Research Method and Statistics, University of Manchester, 2022 (Distinction)
+* B.A. in Philosophy, Southwest University, 2020
 
 Work experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* Winter 2021 - Spring 2022: Quantitative Researcher
+  * HCR Co., Ltd
+  * Automotive Market Research Department
+  * Conduct large-scale longitudinal analysis of automobile pricing using commercial user data
+  * Build integrated user-level panel database (SPSS, R)
+  
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* Fall 2022 - Summer 2024: Consultant & Software Engineer
+  * Thoughtworks Co., Ltd
+  * North American Offshore & TechOps Department 
+  * Use Python and SQL syntax to do maintenance and development of Company-level operation data.
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
   
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Stata & R
+* Python & Java & Javascript
 
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
+[//]: # ()
+[//]: # (Publications)
+
+[//]: # (======)
+
+[//]: # (  <ul>{% for post in site.publications reversed %})
+
+[//]: # (    {% include archive-single-cv.html %})
+
+[//]: # (  {% endfor %}</ul>)
+
+[//]: # (  )
+[//]: # (Talks)
+
+[//]: # (======)
+
+[//]: # (  <ul>{% for post in site.talks reversed %})
+
+[//]: # (    {% include archive-single-talk-cv.html  %})
+
+[//]: # (  {% endfor %}</ul>)
   
 Teaching
 ======
@@ -59,6 +63,8 @@ Teaching
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+[//]: # (Service and leadership)
+
+[//]: # (======)
+
+[//]: # (* Currently signed in to 43 different slack teams)
