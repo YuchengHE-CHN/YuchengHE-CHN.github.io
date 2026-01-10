@@ -1,14 +1,16 @@
 ---
-title: "Teaching experience 1"
+title: "TA of UGOD 5040 Urban Data Acquisition and Analysis"
 collection: teaching
-type: "Undergraduate course"
+type: "Postgraduate course"
 permalink: /teaching/2014-spring-teaching-1
-venue: "University 1, Department"
-date: 2014-01-01
-location: "City, Country"
+venue: "Society Hub, HKUST(GZ)"
+date: 2025-09-01
+location: "Guangzhou, CHN"
 ---
 
-This is a description of a teaching experience. You can use markdown like any other post.
+I served as a Teaching Assistant for UGOD5040 (Urban Data and Analytics) at HKUST (Guangzhou), where I was responsible for student consultation and troubleshooting, and grading quiz and selected coursework.
+
+I also delivered a 1.5-hour practical tutorial for Python beginners on API-based data collection and large language model (LLM) applications, introducing students to programmatic data access, automated text processing, and LLM-assisted data analysis workflows. The tutorial was designed to equip students with essential computational skills for urban and social data research. 
 
 Heading 1
 ======
