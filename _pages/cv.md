@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "CV"
+title: "CV-Manual"
 permalink: /cv/
 author_profile: true
 redirect_from:
