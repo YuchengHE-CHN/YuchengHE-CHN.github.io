@@ -41,3 +41,24 @@
     "vendor/font-awesome/solid",
     "vendor/font-awesome/brands"
 ;
+
+@media (min-width: 1024px) {
+  .sidebar {
+    width: 340px;              /* 默认大约 260px，可调 320/360/380 */
+  }
+
+  .page__inner-wrap {
+    grid-template-columns: 340px 1fr;  /* 左侧固定宽度 + 右侧自适应 */
+  }
+}
+
+/* Optional: make avatar larger */
+.author__avatar img {
+  max-width: 180px;   /* 默认偏小，学术主页建议 160–220 */
+}
+
+/* Optional: make sidebar text more readable */
+.author__content {
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
