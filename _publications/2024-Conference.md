@@ -1,11 +1,13 @@
 ---
-title: "British Sociological Association Annual Conference 2023"
+title: "2024"
 collection: publications
 category: conferences
 #permalink: /publication/2024-02-17-paper-title-number-4
 #excerpt: 'This paper is about fixing template issue #693.'
 date: 2024-02-17
-venue: 'Paper Presentation'
+venue: |
+  British Sociological Association Annual Conference 2024, Paper Presentation<br>
+  46th International Association for Time Use Research Annual Conference, Paper Presentation
 #paperurl: 'https://academicpages.github.io/files/paper3.pdf'
 #citation: 'Your Name, You. (2024). &quot;Paper Title Number 3.&quot; <i>GitHub Journal of Bugs</i>. 1(3).'
 ---
