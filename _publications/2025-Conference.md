@@ -6,7 +6,7 @@ category: conferences
 #excerpt: 'This paper is about fixing template issue #693.'
 date: 2025-12-06
 venue: |
-  120th American Sociological Association Annual Conference, Paper Presentation and Roundtable
+  120th American Sociological Association Annual Conference, Paper Presentation and Roundtable<br>
   52nd British Society for Population Studies Annual Conference, Paper Presentation<br>
   Work, Employment and Society Annual Conference, Paper Presentation<br>
   Hong Kong Sociological Association Annual Conference, Participant<br>
