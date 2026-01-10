@@ -8,8 +8,8 @@ date: 2025-12-06
 venue: |
   120th American Sociological Association Annual Conference, Paper Presentation and Roundtable<br>
   52nd British Society for Population Studies Annual Conference, Paper Presentation<br>
-  Work, Employment and Society Annual Conference, Paper Presentation<br>
-  Hong Kong Sociological Association Annual Conference, Participant<br>
+  Work, Employment and Society Annual Conference 2025, Paper Presentation<br>
+  Hong Kong Sociological Association Annual Conference 2025, Participant<br>
   9th Population Migration and Sustainable Development Workshop of China, Participant
 #paperurl: 'https://academicpages.github.io/files/paper3.pdf'
 #citation: 'Your Name, You. (2024). &quot;Paper Title Number 3.&quot; <i>GitHub Journal of Bugs</i>. 1(3).'
