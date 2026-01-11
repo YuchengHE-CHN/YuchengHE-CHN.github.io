@@ -13,6 +13,8 @@ I work primarily with large-scale time-use diary data and apply advanced quantit
 
 My previous research examines how everyday time use patterns shape individual well-being and social inequality, with a particular focus on gender, family, and labour dynamics across the life course. And my current projects investigate dual-earner couples’ time-use networks, gendered experiences of time pressure and subjective well-being, the gig economy in urban China, and intergenerational processes of life-course disadvantage. More broadly, I aim to bridge sociological theory with data-driven policy evaluation in the areas of ageing, labour markets, and family systems.
 
+I also serve as a reviewer for Social Indicators Research and Humanities and Social Sciences Communications.
+
 For more info
 ------
 If you want more info about me, pls explore the sidebar ~
