@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a PhD Student in Urban Governance and Design at the Hong Kong University of Science and Technology (Guangzhou) and supervised Prof. Muzhi Zhou.
+I am a PhD Student in Urban Governance and Design at the Hong Kong University of Science and Technology (Guangzhou) and supervised by Prof. Muzhi Zhou.
 
 I work primarily with large-scale time-use diary data and apply advanced quantitative and computational methods, including sequence analysis, social network analysis, causal inference, and computational social science approaches. My research seeks to understand how the temporal organization of daily life structures opportunities, constraints, and inequalities in contemporary societies.
 
