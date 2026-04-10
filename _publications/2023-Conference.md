@@ -1,14 +1,10 @@
 ---
-title: "2023"
+title: "Conference Presentations (2023)"
 collection: publications
 category: conferences
-#permalink: /publication/2024-02-17-paper-title-number-4
-#excerpt: 'This paper is about fixing template issue #693.'
+excerpt: "Presented research at the Hong Kong Sociological Association Annual Conference."
 date: 2023-02-17
 venue: |
   Hong Kong Sociological Association Annual Conference 2023, Paper Presentation
-#paperurl: 'https://academicpages.github.io/files/paper3.pdf'
-#citation: 'Your Name, You. (2024). &quot;Paper Title Number 3.&quot; <i>GitHub Journal of Bugs</i>. 1(3).'
 ---
-
 

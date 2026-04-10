@@ -1,9 +1,8 @@
 ---
-title: "2025"
+title: "Conference Presentations and Participation (2025)"
 collection: publications
 category: conferences
-#permalink: /publication/2024-02-17-paper-title-number-4
-#excerpt: 'This paper is about fixing template issue #693.'
+excerpt: "Presented and participated in major sociology, population, and work conferences across the US, UK, Hong Kong, and China."
 date: 2025-12-06
 venue: |
   120th American Sociological Association Annual Conference, Paper Presentation and Roundtable<br>
@@ -11,8 +10,5 @@ venue: |
   Work, Employment and Society Annual Conference 2025, Paper Presentation<br>
   Hong Kong Sociological Association Annual Conference 2025, Participant<br>
   9th Population Migration and Sustainable Development Workshop of China, Participant
-#paperurl: 'https://academicpages.github.io/files/paper3.pdf'
-#citation: 'Your Name, You. (2024). &quot;Paper Title Number 3.&quot; <i>GitHub Journal of Bugs</i>. 1(3).'
 ---
-
 

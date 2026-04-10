@@ -2,13 +2,9 @@
 title: "The Gender Inequalities in Work Time Fragmentation and Anxiety: Latest Time Use Evidence in the UK"
 collection: publications
 category: manuscripts
-#permalink: /publication/2009-10-01-paper-title-number-1
-#excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
+featured: true
+excerpt: "This article links fragmented work schedules to anxiety and shows how unequal temporal patterns at work contribute to gendered mental-health disparities."
 date: 2025-08-11
 venue: 'Social Indicators Research'
-#slidesurl: 'https://academicpages.github.io/files/slides1.pdf'
 paperurl: 'https://link.springer.com/article/10.1007/s11205-025-03661-3'
-#bibtexurl: 'https://academicpages.github.io/files/bibtex1.bib'
-#citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
 ---
-

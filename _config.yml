@@ -11,8 +11,8 @@ locale                   : "en-US"
 site_theme               : "mint" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
 title                    : "Yucheng He"
 title_separator          : "-"
-name                     : "Yucheng"
-description              : "Yucheng's academic portfolio"   # Update this with a general description of your site, this is the default if not overridden by a page
+name                     : "Yucheng He"
+description              : "Academic website of Yucheng He, PhD student in Urban Governance and Design at HKUST(GZ)."   # Update this with a general description of your site, this is the default if not overridden by a page
 url                      : https://yuchenghe-chn.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -26,7 +26,7 @@ author:
   avatar           : "Theo&Me.jpg"
   name             : "Yucheng He"
   pronouns         : # example: "she/her"  
-  bio              : "Time Use & Computational Social Science"
+  bio              : "Time Use, Inequality, and Computational Social Science"
   location         : "Guangzhou, China"
   employer         : "HKUST(GZ)"
   uri              : # URL
@@ -38,7 +38,7 @@ author:
   googlescholar    : "https://scholar.google.com/citations?user=lGdOk7MAAAAJ&hl=en"
   inspire-hep      : # URL
   impactstory      : # URL
-  orcid            : "https://orcid.org/my-orcid?orcid=0009-0004-8752-5746"
+  orcid            : "https://orcid.org/0009-0004-8752-5746"
   semantic         : # URL
   ssrn             : # URL
   pubmed           : # URL
@@ -125,7 +125,7 @@ staticman:
       options:
         format           : "iso8601" # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
 atom_feed:
-  hide                   : false     # change to true to hide the RSS feed in the footer
+  hide                   : true      # change to true to hide the RSS feed in the footer
   path                   : # blank (default) uses feed.xml
 
 
@@ -188,6 +188,23 @@ exclude:
   - log
   - node_modules
   - package.json*
+  - _posts
+  - _talks
+  - _portfolio
+  - _pages/archive-layout-with-content.md
+  - _pages/category-archive.html
+  - _pages/collection-archive.html
+  - _pages/cv-json.md
+  - _pages/markdown.md
+  - _pages/non-menu-page.md
+  - _pages/page-archive.html
+  - _pages/portfolio.html
+  - _pages/sitemap.md
+  - _pages/tag-archive.html
+  - _pages/talkmap.html
+  - _pages/talks.html
+  - _pages/terms.md
+  - _pages/year-archive.html
   - Rakefile
   - README
   - tmp
@@ -228,10 +245,10 @@ collections:
     output: true
     permalink: /:collection/:path/
   portfolio:
-    output: true
+    output: false
     permalink: /:collection/:path/
   talks:
-    output: true
+    output: false
     permalink: /:collection/:path/
 
 
