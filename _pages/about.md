@@ -2,6 +2,7 @@
 permalink: /
 title: "About"
 author_profile: true
+hide_title: true
 redirect_from: 
   - /about/
   - /about.html
@@ -11,10 +12,10 @@ redirect_from:
 
 <div class="landing-page">
   <section class="landing-hero">
-    <p class="landing-eyebrow">PhD Student, HKUST(GZ)</p>
+    <p class="landing-eyebrow">PhD Candidate · HKUST(GZ)</p>
     <h1 class="landing-title">Research on time, inequality, and everyday life</h1>
     <p class="landing-lead">
-      I am a PhD Student in Urban Governance and Design at the Hong Kong University of Science and Technology (Guangzhou), supervised by Prof. Muzhi Zhou.
+      I am a PhD Candidate in Urban Governance and Design at the Hong Kong University of Science and Technology (Guangzhou), supervised by Prof. Muzhi Zhou.
       My research examines how the temporal organization of daily life shapes inequality, well-being, and family systems in contemporary societies.
     </p>
     <p class="landing-lead">
@@ -29,21 +30,24 @@ redirect_from:
   <section class="landing-section">
     <h2>Research Agenda</h2>
     <div class="landing-grid">
-      <article class="landing-card">
+      <article class="landing-card landing-card--time">
+        <p class="landing-card__kicker">01 · Time and well-being</p>
         <h3>Time use, inequality, and well-being</h3>
         <p>
           I study how daily schedules, fragmented work time, and competing demands shape stress, subjective well-being, and unequal life chances.
           My work asks how time itself becomes a mechanism that distributes opportunities and constraints across social groups.
         </p>
       </article>
-      <article class="landing-card">
+      <article class="landing-card landing-card--family">
+        <p class="landing-card__kicker">02 · Gender and family</p>
         <h3>Gender, family, and life-course dynamics</h3>
         <p>
           My research focuses on how household labour, paid work, parenting, and family expectations interact across the life course.
           I am especially interested in gendered experiences of time pressure, dual-earner households, and intergenerational disadvantage.
         </p>
       </article>
-      <article class="landing-card">
+      <article class="landing-card landing-card--methods">
+        <p class="landing-card__kicker">03 · Computational methods</p>
         <h3>Computational and quantitative methods for social policy questions</h3>
         <p>
           I use sequence analysis, social network analysis, causal inference, and computational social science to connect sociological theory with empirical policy questions.

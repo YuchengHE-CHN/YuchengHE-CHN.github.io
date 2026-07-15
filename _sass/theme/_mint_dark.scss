@@ -50,6 +50,10 @@ html[data-theme="dark"] {
   --global-text-color                 : #{$text};
   --global-text-color-light           : #{$text-muted};
   --global-thead-color                : #{$background-lighter};
+  --global-panel-color                : #{$background-light};
+  --research-time-color               : #4fd1a5;
+  --research-family-color             : #f08bb7;
+  --research-methods-color            : #79a9ec;
 
 }
 
