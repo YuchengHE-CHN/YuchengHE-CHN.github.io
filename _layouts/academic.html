@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="{{ site.locale | default: 'en' | split: '-' | first }}" class="no-js">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script>
+    document.documentElement.className = 'js';
+    try {
+      var savedTheme = localStorage.getItem('theme');
+      if (savedTheme === 'light' || savedTheme === 'dark') document.documentElement.dataset.theme = savedTheme;
+    } catch (error) { /* System appearance remains available without storage. */ }
+  </script>
+  {% include seo.html %}
+  <link rel="icon" type="image/svg+xml" href="{{ '/images/favicon.svg' | relative_url }}">
+  <link rel="apple-touch-icon" href="{{ '/images/apple-touch-icon-180x180.png' | relative_url }}">
+  <meta name="color-scheme" content="light dark">
+  <link rel="stylesheet" href="{{ '/assets/css/academic.css' | relative_url }}">
+  <script src="{{ '/assets/js/academic.js' | relative_url }}" defer></script>
+  {% if page.home_interactions %}<script src="{{ '/assets/js/academic-home.js' | relative_url }}" defer></script>{% endif %}
+</head>
+<body>
+<div id="academic-site">
+  <a class="bs-skip" href="#main">Skip to content</a>
+  <header class="bs-header">
+    <a class="bs-brand" href="{{ '/' | relative_url }}">Yucheng He<span>.</span></a>
+    {% assign active_section = page.section %}
+    {% if page.collection == 'teaching' %}{% assign active_section = 'teaching' %}{% endif %}
+    {% if page.collection == 'publications' %}
+      {% assign active_section = 'research' %}
+      {% if page.category == 'conferences' %}{% assign active_section = 'talks' %}{% endif %}
+    {% endif %}
+    <nav aria-label="Main navigation">
+      {% for item in site.data.navigation.main %}
+        <a href="{{ item.url | relative_url }}"{% if active_section == item.section %} aria-current="page"{% endif %}>{{ item.title }}</a>
+      {% endfor %}
+    </nav>
+  </header>
+  <main id="main" tabindex="-1">{{ content }}</main>
+  <footer class="bs-footer">
+    <span>© {{ site.time | date: '%Y' }} Yucheng He · HKUST(GZ)</span>
+    <div>
+      <a href="{{ '/contact/' | relative_url }}">Contact ↗</a>
+      <label class="bs-theme-control" hidden>Appearance
+        <select id="appearance" aria-label="Color theme">
+          <option value="system">System</option><option value="light">Light</option><option value="dark">Dark</option>
+        </select>
+      </label>
+    </div>
+  </footer>
+</div>
+{% include analytics.html %}
+</body>
+</html>

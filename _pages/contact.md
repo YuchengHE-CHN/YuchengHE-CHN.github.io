@@ -1,22 +1,8 @@
 ---
-layout: single
+layout: academic
 title: "Contact"
 permalink: /contact/
-author_profile: true
+section: contact
 ---
 
-I welcome academic conversations and collaboration related to time-use research, inequality, family systems, computational social science, and quantitative methods.
-
-## Contact
-
-* Email: [yucheng.peter.he@gmail.com](mailto:yucheng.peter.he@gmail.com)
-* Google Scholar: [Profile](https://scholar.google.com/citations?user=lGdOk7MAAAAJ&hl=en)
-* ORCID: [0009-0004-8752-5746](https://orcid.org/0009-0004-8752-5746)
-* GitHub: [YuchengHE-CHN](https://github.com/YuchengHE-CHN)
-
-## Research Interests
-
-* Time use, inequality, and subjective well-being
-* Gender, family, and life-course dynamics
-* Computational social science and causal inference
-* Social policy questions related to labour, ageing, and family systems
+<div class="bs-page-heading"><div class="bs-eyebrow">GET IN TOUCH</div><h1>Contact<span>.</span></h1><p>I welcome conversations about time-use research, inequality, family life, and computational social science.</p></div><div class="bs-contact-layout"><div><div class="bs-eyebrow">EMAIL</div><a class="bs-email" href="mailto:yucheng.peter.he@gmail.com">yucheng.peter.he@gmail.com ↗</a><p>Hong Kong University of Science and Technology (Guangzhou)<br/>Guangzhou, China</p></div><div class="bs-contact-links"><a href="https://scholar.google.com/citations?user=lGdOk7MAAAAJ&amp;hl=en">Google Scholar <span>↗</span></a><a href="https://orcid.org/0009-0004-8752-5746">ORCID <span>↗</span></a><a href="https://github.com/YuchengHE-CHN">GitHub <span>↗</span></a></div></div>

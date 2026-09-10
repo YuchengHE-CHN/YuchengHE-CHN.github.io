@@ -1,0 +1,11 @@
+{% assign featured = site.publications | where: 'featured', true | sort: 'featured_order' %}
+{% for paper in featured %}
+<article class="bs-feature-row">
+  {% if paper.research_theme == 'time' %}
+  <div class="bs-feature-art bs-time-art" aria-hidden="true"><span>TIME USE</span><div><i style="width:55%"></i><i style="width:30%"></i></div><div><i style="width:20%"></i><i style="width:18%"></i><i style="width:27%"></i><i style="width:10%"></i></div><small>Hours &amp; episodes</small></div>
+  {% else %}
+  <div class="bs-feature-art bs-css-art" aria-hidden="true"><span>COMPUTATIONAL<br>SOCIAL SCIENCE</span><div class="bs-art-words">Comments<br><span>↓</span><br>Topics + Sentiment</div></div>
+  {% endif %}
+  <div><span class="bs-eyebrow">{{ paper.short_venue | escape }} · {{ paper.date | date: '%Y' }}</span><h3>{{ paper.display_title | escape }}</h3><p>{{ paper.question | escape }}</p><p class="bs-meta">{{ paper.methods | escape }}</p><a class="bs-text-link" href="{{ paper.url | relative_url }}">Explore the study ↗</a></div>
+</article>
+{% endfor %}

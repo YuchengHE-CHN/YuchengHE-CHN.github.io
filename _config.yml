@@ -202,7 +202,6 @@ exclude:
   - _pages/sitemap.md
   - _pages/tag-archive.html
   - _pages/talkmap.html
-  - _pages/talks.html
   - _pages/terms.md
   - _pages/year-archive.html
   - Rakefile
@@ -277,19 +276,19 @@ defaults:
       path: ""
       type: teaching
     values:
-      layout: single
-      author_profile: true
-      share: true
-      comments: true
+      layout: academic-detail
+      author_profile: false
+      share: false
+      comments: false
   # _publications
   - scope:
       path: ""
       type: publications
     values:
-      layout: single
-      author_profile: true
-      share: true
-      comments: true
+      layout: academic-detail
+      author_profile: false
+      share: false
+      comments: false
   # _portfolio
   - scope:
       path: ""

@@ -1,0 +1,7 @@
+{% assign conferences = site.publications | where: 'category', 'conferences' | sort: 'date' | reverse %}
+{% for conference in conferences %}
+<section class="bs-conference-year" id="bs-year-{{ conference.date | date: '%Y' }}">
+  <h2 class="bs-year">{{ conference.date | date: '%Y' }}</h2>
+  <div>{% include academic/events.html events=conference.events %}</div>
+</section>
+{% endfor %}

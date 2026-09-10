@@ -1,0 +1,12 @@
+{% assign courses = site.teaching | sort: 'teaching_order' %}
+{% for course in courses %}
+<article class="bs-course">
+  <div class="bs-year">{{ course.date | date: '%Y' }}</div>
+  <div><span class="bs-eyebrow">{{ course.course_code }} · {{ course.type }}</span><h2>{{ course.course_title | escape }}</h2>
+    <div class="bs-role">Teaching Assistant <span>Instructor: {{ course.instructor | escape }}</span></div>
+    <p>{{ course.summary | escape }}</p>
+    <div class="bs-tags">{% for tag in course.tags %}<span>{{ tag | escape }}</span>{% endfor %}</div>
+    <details><summary>Course &amp; teaching details</summary><div class="bs-detail-body">{{ course.content | markdownify }}<a class="bs-text-link" href="{{ course.url | relative_url }}">Course page ↗</a></div></details>
+  </div>
+</article>
+{% endfor %}

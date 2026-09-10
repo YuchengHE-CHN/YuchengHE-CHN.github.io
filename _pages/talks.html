@@ -1,16 +1,13 @@
 ---
-layout: archive
-title: "Talks and presentations"
+layout: academic
+title: "Talks & Conferences"
 permalink: /talks/
-author_profile: true
+section: talks
 ---
 
-{% if site.talkmap_link == true %}
-
-<p style="text-decoration:underline;"><a href="/talkmap.html">See a map of all the places I've given a talk!</a></p>
-
-{% endif %}
-
-{% for post in site.talks reversed %}
-  {% include archive-single-talk.html %}
-{% endfor %}
+<div class="bs-page-heading"><div class="bs-eyebrow">ACADEMIC EXCHANGE</div><h1>Talks &amp;<br/>Conferences<span>.</span></h1><p>Research presentations, roundtables, posters, and conference participation.</p></div>
+<nav aria-label="Jump to conference year" class="bs-year-nav">
+{% assign conferences = site.publications | where: 'category', 'conferences' | sort: 'date' | reverse %}
+{% for conference in conferences %}<a href="#bs-year-{{ conference.date | date: '%Y' }}">{{ conference.date | date: '%Y' }}</a>{% endfor %}
+</nav>
+{% include academic/conferences.html %}
