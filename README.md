@@ -6,7 +6,8 @@ The active site uses a burgundy design with a homepage portrait, two featured re
 
 - Main pages: `_pages/`; shared shell: `_layouts/academic.html`; collection detail pages: `_layouts/academic-detail.html`.
 - Navigation: `_data/navigation.yml`. Each entry has a `section` matching the relevant page's front matter.
-- Design: `assets/css/academic.css`. Shared theme and printing controls: `assets/js/academic.js`. The synthetic eight-hour schedule and research selector load only on the homepage through `academic-home.js`.
+- Design: `assets/css/academic.css`. Shared theme and printing controls: `assets/js/academic.js`. The homepage and two featured paper pages set `research_stories: true` to load `research-stories.css` and `research-stories.js`. Their interactive schedule and methods figures are shared includes in `_includes/academic/`; the schedules are synthetic measurement examples, not empirical results.
+- Featured paper details use `_layouts/research-story.html`, with publication metadata and citation generated from the existing records. The homepage's selected updates are curated in `_pages/about.md`; keep dates and links tied to public publications and conference records.
 - Portrait: `images/Theo&Me.jpg`, selected through `author.avatar` in `_config.yml`. The original image is retained.
 - Publications: `_publications/*.md`, with `category: manuscripts`. Research and CV read the same records. Use `authors`, `venue`, `date`, `paperurl`, `doi`, and `citation_detail`; set `featured: true` plus `featured_order`, `research_theme`, `short_venue`, `display_title`, `question`, and `methods` for a featured study. The homepage's two study introductions are intentionally curated in `_pages/about.md`.
 - Conferences: existing `_publications/*Conference.md` records, with structured `events` containing `name`, `format`, and optional `location`. Talks displays all events; CV omits entries whose format is `Participant`.

@@ -1,0 +1,17 @@
+---
+layout: academic
+---
+<div class="research-stories">
+  <a class="rs-back" href="{{ '/publications/' | relative_url }}">← Research</a>
+  <header class="rs-page-head rs-paper-head">
+    <span class="rs-eyebrow">{{ page.short_venue | escape }} · {{ page.date | date: '%Y' }}</span>
+    <h1>{{ page.title | escape }}</h1>
+    <p class="rs-authors">{% include academic/authors.html authors=page.authors %}</p>
+    <div class="rs-links">
+      <a class="rs-resource" href="{{ page.paperurl | escape }}">Read published paper ↗</a>
+      {% if page.preprinturl %}<a class="rs-resource" href="{{ page.preprinturl | escape }}">Preprint ↗</a>{% endif %}
+      <a class="rs-resource" href="#paper-citation" data-cite="paper-citation">Citation ↓</a>
+    </div>
+  </header>
+  {{ content }}
+</div>

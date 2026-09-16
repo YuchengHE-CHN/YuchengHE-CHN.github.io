@@ -1,0 +1,8 @@
+<details id="paper-citation">
+  <summary>Full citation</summary>
+  <div class="rs-citation">
+    {% include academic/authors.html authors=page.authors %} ({{ page.date | date: '%Y' }}).
+    {{ page.title | escape }}. <i>{{ page.venue | escape }}</i>, {{ page.citation_detail | escape }}.
+    <a href="https://doi.org/{{ page.doi | escape }}">doi:{{ page.doi | escape }}</a>
+  </div>
+</details>

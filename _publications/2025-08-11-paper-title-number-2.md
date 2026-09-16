@@ -22,14 +22,8 @@ authors:
   - "Yan Wen"
 doi: "10.1007/s11205-025-03661-3"
 citation_detail: "180, 675–696"
+layout: research-story
+research_stories: true
 ---
 
-## Research question
-
-Working time has a structure as well as a duration. This study examines how work time fragmentation is associated with anxiety, how that relationship differs by gender, and the role of perceived time pressure.
-
-## Approach
-
-Using UK time-use diaries collected in 2020–2021, the study measures fragmentation through continuous work episodes and examines its relationship with anxiety using regression and decomposition analyses.
-
-The interactive schedule on the homepage illustrates how the same number of working hours can be organized into different numbers of episodes. It is a synthetic example, not a participant's diary or a visualization of estimated effects.
+<div class="rs-paper-grid"><div><h2>Working time has a structure.</h2><p>A daily total can hide very different schedules. This study examines work episodes, anxiety, and time pressure using UK time-use diaries from 2020–2021.</p>{% include academic/schedule-figure.html %}<div class="rs-finding"><span class="rs-eyebrow">A KEY FINDING</span><p>Fragmented schedules were associated with lower anxiety for both women and men. At comparable fragmentation levels, women still reported higher anxiety.</p></div><h2>Why gender matters</h2><p>Among women, subjective time pressure partly counteracted the association with lower anxiety. The study distinguishes the organization of work from the total amount of working time.</p><p class="rs-note">These are associations in pandemic-era diary data, not causal effects of changing a person's schedule.</p>{% include academic/citation.html %}</div><aside><strong>Research context</strong>United Kingdom<br/>2020–2021<strong>Data</strong>Time-use diaries<strong>Methods</strong>Work-episode measurement<br/>OLS regression<br/>KHB decomposition<strong>Research themes</strong>Temporal organization<br/>Gender inequality<br/>Well-being</aside></div>

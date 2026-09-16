@@ -16,7 +16,10 @@
   <meta name="color-scheme" content="light dark">
   <link rel="stylesheet" href="{{ '/assets/css/academic.css' | relative_url }}">
   <script src="{{ '/assets/js/academic.js' | relative_url }}" defer></script>
-  {% if page.home_interactions %}<script src="{{ '/assets/js/academic-home.js' | relative_url }}" defer></script>{% endif %}
+  {% if page.research_stories %}
+  <link rel="stylesheet" href="{{ '/assets/css/research-stories.css' | relative_url }}">
+  <script src="{{ '/assets/js/research-stories.js' | relative_url }}" defer></script>
+  {% endif %}
 </head>
 <body>
 <div id="academic-site">

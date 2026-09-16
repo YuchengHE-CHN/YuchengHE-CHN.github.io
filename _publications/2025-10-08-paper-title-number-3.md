@@ -26,16 +26,8 @@ authors:
 doi: "10.1609/icwsm.v20i1.42761"
 citation_detail: "20(1), 2466–2483"
 permalink: "/publications/2025-10-08-paper-title-number-3/"
+layout: research-story
+research_stories: true
 ---
 
-## Research question
-
-This study compares online discussions of childbirth and parenthood across China, Japan, and South Korea, asking what themes and sentiments emerge in these different social contexts.
-
-## Approach
-
-The analysis combines BERTopic for thematic analysis with Qwen for sentiment analysis of social media comments. These are complementary analytical tasks: identifying what people discuss and examining the sentiment expressed in those discussions.
-
-## Publication
-
-Published in the 2026 proceedings of the International AAAI Conference on Web and Social Media (ICWSM). The earlier preprint remains available alongside the published version.
+<div class="rs-paper-grid"><div><h2>Family formation, discussed online.</h2><p>The study examines 219,127 comments on 668 short videos. BERTopic assists thematic analysis; Qwen labels sentiment.</p>{% include academic/methods-figure.html %}<div class="rs-finding"><span class="rs-eyebrow">A KEY FINDING</span><p>Child-rearing expenses feature across all three countries. Comments differ in their emphasis on children's utility, individualism, and attitudes toward having children.</p></div><h2>Two complementary readings</h2><p>Topic analysis identifies what people discuss. Sentiment analysis examines the attitudes expressed. Together, they support comparison of online family discourse across contexts.</p>{% include academic/citation.html %}</div><aside><strong>Research contexts</strong>China<br/>Japan<br/>South Korea<strong>Platforms</strong>Douyin and TikTok<strong>Corpus</strong>219,127 comments<br/>668 short videos<strong>Methods</strong>BERTopic<br/>Qwen sentiment labeling</aside></div>
