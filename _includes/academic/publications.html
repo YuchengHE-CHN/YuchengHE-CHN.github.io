@@ -6,6 +6,7 @@
     <h3><a href="{{ paper.url | relative_url }}">{{ paper.title | escape }}</a></h3>
     <p class="bs-meta">{% include academic/authors.html authors=paper.authors %}</p>
     <p class="bs-meta"><em>{{ paper.venue | escape }}</em>{% if paper.citation_detail %}, {{ paper.citation_detail }}{% endif %}.</p>
+    {% if paper.online_publication %}<p class="bs-meta">Published online {{ paper.online_publication | escape }}.</p>{% endif %}
     <div class="bs-links"><a href="{{ paper.paperurl | escape }}">Publication ↗</a>{% if paper.preprinturl %}<a href="{{ paper.preprinturl | escape }}">Preprint ↗</a>{% endif %}</div>
   </div>
 </article>
