@@ -1,4 +1,4 @@
-{% assign courses = site.teaching | sort: 'date' | reverse %}
+{% assign courses = site.teaching | sort: 'teaching_order' %}
 {% for course in courses %}
-<div class="bs-cv-entry"><span>{{ course.date | date: '%Y' }}</span><div><h3><a href="{{ course.url | relative_url }}">{{ course.course_code }} · {{ course.course_title | escape }}</a></h3><p>Teaching Assistant · {{ course.venue | escape }}</p><p>Instructor: {{ course.instructor | escape }}</p></div></div>
+<div class="bs-cv-entry"><span>{{ course.date | date: '%Y' }}</span><div><h3><a href="{{ course.url | relative_url }}">{{ course.course_code }} · {{ course.course_title | escape }}</a></h3><p>Teaching Assistant · {{ course.venue | escape }}</p><p>Instructor: {{ course.instructor | escape }}</p>{% if course.teaching_topic %}<p>My teaching topic: {{ course.teaching_topic | escape }}</p>{% elsif course.course_focus %}<p>Course focus: {{ course.course_focus | escape }}</p>{% endif %}</div></div>
 {% endfor %}
